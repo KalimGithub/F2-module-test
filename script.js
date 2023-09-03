@@ -68,7 +68,7 @@ function displayData(weather) {
     const direction = degreeToDirection(weather.wind.deg);
     const temp = Math.round(weather.main.temp - 273.15);
 
-    detail.innerHTML = `<div>Location: ${location}</div>
+    detail.innerHTML = `<p>Location: ${location}</p>
     <p>Wind Speed: ${speed}kmph</p>
     <p>Humidity: ${humidity} %</p>
     <p>Time Zone: GMT ${time.sign}${time.hours}:${time.minutes}</p>
