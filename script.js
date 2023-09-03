@@ -64,7 +64,7 @@ function displayData(weather) {
     const speed = Math.round(weather.wind.speed * 3.6);
     const humidity = weather.main.humidity;
     const time = secondsToTimeZoneString(weather.timezone);
-    const pressure = math.round(weather.main.pressure / 1013.25);
+    const pressure = Math.round(weather.main.pressure / 1013.25);
     const direction = degreeToDirection(weather.wind.deg);
     const temp = Math.round(weather.main.temp - 273.15);
 
