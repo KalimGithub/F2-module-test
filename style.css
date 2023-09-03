@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Inter&family=Mada&family=Montserrat&family=Poppins&family=Rubik&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mada', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #360369;
+}
+
+.container-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#button {
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 300;
+    width: 300px;
+}
+
+
+
+/* .weather-container{
+    height: 100vh;
+    width: 100vw;
+} */
+
+.top-container {
+    background-color: #360369;
+    text-align: center;
+}
+
+.top-text {
+    margin: 10px 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#p-text {
+    margin: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.latitude-longitude {
+    margin: 20px 0px;
+}
+
+#latitude,
+#longitude {
+    margin-right: 20px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #270846;
+    cursor: pointer;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+}
+
+.map {
+    margin: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map img {
+    align-items: center;
+    width: 45vw;
+    margin-bottom: 30px;
+
+}
+
+/* bottom container styles */
+.bottom-container {
+    background-color: white;
+    padding: 10px 30px;
+
+}
+
+#weather-data-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #360369;
+    margin: 0px 10px;
+}
+
+.weather-details {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+.weather-details p {
+    width: max-content;
+    background-color: #360369;
+    padding: 10px 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+
+}

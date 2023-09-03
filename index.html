@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2-module-test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- basic blueprint -->
+    <div id="container-hidden" class="container-container">
+        <h1 id="title">Weather Api</h1>
+        <button id="button">Fetch Data</button>
+    </div>
+
+
+
+
+    <div id="container" class="container">
+        <div class="top-container">
+            <div class="top-text">
+                <h1 id="welcome-text">Welcome To The Weather App</h1>
+                <p id="p-text">Here is your current location</p>
+                <div id="latitude-longitude" class="latitude-longitude">
+                    <!-- <span id="latitude">Lat: 1236548855</span>
+                    <span id="longitude">Long: 23563132464</span> -->
+                </div>
+            </div>
+            <div class="map-div">
+                <iframe id="map" class="map" src="" frameborder="0" style="border: 0;"></iframe>
+            </div>
+        </div>
+
+        <!-- bottom container div -->
+        <div class="bottom-container">
+            <h1 id="weather-data-title">Your Weather Data</h1>
+            <div id="weather-details" class="weather-details">
+                <p id="location">Location: New Delhi</p>
+                <p id="wind-speed">Wind Speed: 100 Kmph</p>
+                <p id="humidity">Humidity: 10</p>
+                <p id="wind-direction">Wind Direction: North west</p>
+                <p id="time-zone">Time Zone: GMT +5:30</p>
+                <p id="pressure">Pressure: 100atm</p>
+                <p id="uv-index">UV Index: 500</p>
+                <p id="feels-like">Feels like: 30 <sup>o</sup> </p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
